@@ -1,0 +1,33 @@
+.main_title {
+    text-align: center;
+    color: violet; /*  выравние по центру и цвет */
+    background-color: #eff6fd;
+}
+
+.form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; /*  выравние по центру и задача ширины */
+}
+
+* label {
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px; /*  выравние по центру, задача шрифта, задача размера текста */
+}
+
+* input {
+    display: block; /*  превращение input в блочную модель, чтобы каждый элемент был под друг другом */
+    width: 100%; /*  занимать всю ширину формы */
+    height: 38px; /*  высота элемента */
+
+    font-family: inherit; /*  шрифт */
+    font-size: 16px; /*  размер шрифта */
+    line-height: 1.5; /*  высота строки */
+    color: #212529; /*  цвет шрифта */
+    background-color: #f8f8f8; /*  цвет фона*/
+    border: 1px solid #bdbdbd; /*  границы */
+    border-radius: 4px; /*  скругление углов */
+
+}
