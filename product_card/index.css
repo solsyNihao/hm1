@@ -1,0 +1,38 @@
+* {
+    font-size: 15.52px;
+    font-family: sans-serif;
+}
+
+.all_cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: block;
+    width: 267px;
+    height: 391px;
+    border-radius: 16px;
+    border: 2px solid gray;
+}
+
+.img_card {
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 188px;
+    width: 267px;
+}
+
+.text {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.button {
+    display: block;
+    width: 237px;
+    height: 58px;
+    background-color: #4A22F4;
+    color: #ffffff;
+}
